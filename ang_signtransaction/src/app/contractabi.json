@@ -1,0 +1,74 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"name": "firstname",
+				"type": "string"
+			},
+			{
+				"name": "lastname",
+				"type": "string"
+			}
+		],
+		"name": "reg",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "id",
+				"type": "uint256"
+			}
+		],
+		"name": "check",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "map",
+		"outputs": [
+			{
+				"name": "firstname",
+				"type": "string"
+			},
+			{
+				"name": "lastname",
+				"type": "string"
+			},
+			{
+				"name": "status",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
